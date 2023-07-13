@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="EstilosIngreso.css">
+<title>PagoDigital</title>
+</head>
+<body>
+	<!-- Cabezera de la pagina web -->
+	<header>
+		<h1>PagoDigital</h1>
+		<nav class="navegacion">
+		<ul>
+			<li><a href="#">Informacion</a></li>
+			<li><a href="#">Fuentes</a></li>
+			<li><a href="#">Ingresar</a></li>
+		</ul>
+		</nav>
+	</header>
+	<!-- Articulo-->
+	<article>
+		<!-- Seccion con clase Contenido-->
+		<section class="contenido">
+			<h1>Registro</h1>
+			<!-- Formulario de Registro-->
+			<form>
+			<p>Nombre:
+			<br>
+			<input class="btn-nombre" type="text" name="nombre"></p>
+			<p>Apellidos:
+			<br>
+			<input class="btn-apellidos" type="text" name="apellidos"></p>
+			<p>Correo:
+			<br>
+			<input class="btn-correo" type="text" name="correo"></p>
+			<p>Contraseña:
+			<br>
+			<input class="btn-contraseña" type="password" name="contraseña"></p>
+			<p>Confirmar Contraseña:
+			<br>
+			<input class="btn-confircontra" type="password" name="confirmar contraseña"></p>
+			<p>Año de nacimiento:
+			<br>
+			<input class="btn-año" type="number" name="nacido" min="1900"></p>
+			<p>Sexo:
+			<br>
+			<input type="radio" name="hm" value="h"> Hombre
+			<input type="radio" name="hm" value="m"> Mujer
+			</p>
+			<!-- Botones Enviar y Borrar Informacion-->
+			<p>
+			<input class="btn-enviar" onclick="alert('Registro Correcto');"type="submit" value="Enviar">
+			<input class="btn-borrar" type="reset" value="Borrar">
+			</p>
+			</form>
+		</section>
+	</article>
+	
+	<footer>
+		<h1>Sobre Nosotros</h1>
+		<p>conócenos</p>
+	</footer>
+</body>
+</html>

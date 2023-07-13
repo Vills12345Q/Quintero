@@ -1,0 +1,117 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Karla', sans-serif;
+}
+
+header {
+display: flex;
+background-color: black;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+color: white;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+padding-right: 15px;
+}
+a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+a:hover{
+color: red;
+}
+.contenido{
+width: 100%;
+height: 100vh;
+background-image: url();
+background-position: center;
+background-size: cover;
+color: white;
+padding-top: 75px;
+padding-left: 5%;
+padding-right: 5%;
+}
+.contenido h1{
+color: black;
+font-size: 35px;
+font-family: Nanum Myeongjo;
+text-align: center;
+padding-bottom: 25px;
+}
+form{
+color: black;
+box-sizing: border-box;
+width: 100%;
+max-width: 600px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+form p{
+font-size: 25px;
+padding: 8px;
+text-align: center;
+}
+.btn-nombre{
+font-size: 20px;
+width: 300px;
+background-color: transparent;
+border-radius: 15px;
+border: 1;
+}
+.btn-apellidos{
+font-size: 20px;
+width: 300px;
+background-color: transparent;
+border-radius: 15px;
+border: 1;
+}
+.btn-correo{
+font-size: 20px;
+width: 300px;
+background-color: transparent;
+border-radius: 15px;
+border: 1;
+}
+.btn-contraseña{
+font-size: 20px;
+width: 300px;
+background-color: transparent;
+border-radius: 15px;
+border: 1;
+}
+.btn-confircontra{
+font-size: 20px;
+width: 300px;
+background-color: transparent;
+border-radius: 15px;
+border: 1;
+}
+.btn-año{
+font-size: 20px;
+width: 100px;
+background-color: transparent;
+border-radius: 15px;
+}
+
+footer{
+  text-align:center;
+  background-color: black;
+  padding: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+footer p{
+	padding-top: 30px;
+	font-size: 10px;
+}

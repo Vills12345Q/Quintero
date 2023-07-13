@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+a:hover{
+  color: red;
+}
+
+.imgone {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Digi.jpg);
+  background-position: center;
+  background-size: cover;
+  color: black;
+  padding-top: 150px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.imgone h1{
+  font-size: 60px;
+  margin-top: 10%;
+  max-width: 800px;
+}
+
+.imgone p{
+  margin-top: 10px;
+  line-height: 25px;
+  max-width: 800px;
+}
+
+
+.contenido{
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 5%;
+  padding-right: 200px;
+  color: black;
+}
+
+
+.contenido h1{
+  font-size: 30px;
+}
+
+.contenido p{
+  font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.contenido img{
+  display: flex;
+}
+
+
+footer{
+  text-align:center;
+  background-color: black;
+  padding: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+footer h1{
+  padding-top: 40px;
+  font-size: 30px;
+}
+
+footer p{
+  padding-top: 30px;
+  font-size: 10px;
+}
+
+
